@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+          <h2>Register Form</h2>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" required>
+
+            <div id="dropzone" style="background-color: #06fa0f; color:black">
+                <p>Drop your file here!</p>
+              </div>
+            
+            <div class="drop-zone choose">
+              <span>Choose File:</span>
+              <input type="file" id="avatar" name="avatar" multiple>
+            </div>
+            
+            <input type="submit" value="Register">
+           
+          </form>
+        </div>
+        <div class="user-container">
+          <h3 class="users-title">Users</h3>
+          <div class="users-list"></div>
+          </div>
+          </div>
+          
+          
+    <script src="./script.js"></script>
+</body>
+</html>

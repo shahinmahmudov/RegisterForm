@@ -1,0 +1,174 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-color: #000000;
+    background-image: url(https://64.media.tumblr.com/f816c9430a4851bb196e559ade3a99ad/tumblr_paqhc18jmD1xp1j77o1_640.gifv);
+
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+    
+  }
+  
+  .form-container {
+    background-color: #070707;
+    color: #06fa0f;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 30px;
+    width: 350px;
+    border: 1px solid #06fa0f ;
+    box-shadow: #06fa0e76 0px 30px 50px, #06fa0e5f 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(251, 4, 4, 0.09) 0px -3px 5px;
+
+  }
+  
+  .user-container {
+    background-color: black;
+    color: #53f712;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 30px;
+    width: calc(100% - 440px);
+    border: 1px solid #06fa0f ;
+    box-shadow: #06fa0e76 0px 30px 50px, #06fa0e5f 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(251, 4, 4, 0.09) 0px -3px 5px;
+
+
+  }
+  
+  .users-title {
+    margin-top: 0;
+    font-size: 24px;
+    
+  }
+  
+  .users-list {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  
+  .users-list .user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 100px;
+  }
+  
+  .users-list .user img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 1px solid #06fa0f ;
+
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #06fa0f ;
+  }
+  
+  input[type="text"],
+  input[type="file"],
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  #name{
+    background-color:  #bfeec1;
+  }
+  #surname{
+    background-color:  #bfeec1;
+  }
+  
+  input[type="submit"] {
+    background-color: #06fa0f;
+    color: #000000;
+    border: 1px ridge black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #06fa0f;
+  }
+  
+  input[type=file]::file-selector-button {
+  background-color: #06fa0f;
+  border-radius: 20px;
+  padding: 10px;
+  }
+
+  .modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .modal-buttons {
+    margin-top: 20px;
+  }
+  
+  .modal-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .modal-button.cancel {
+    background-color: #06fa0f;
+  }
+  
+  #avatar{
+    border: 1px solid #06fa0f ;
+  }
+
+  .delete-btn{
+    background-color: #06fa0f;
+  border-radius: 20px;
+  padding: 10px;
+  }
